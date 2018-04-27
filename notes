@@ -20,15 +20,6 @@
 </html>
 
 
-@font-face {
-    font-family: 'alex_brushregular';
-    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
-         url('alexbrush-regular-webfont.woff') format('woff');
-    font-weight
-    : normal;
-    font-style: normal;
-
-}
 
 
 @font-face {
@@ -40,10 +31,6 @@
 
 }
 
-body {
-    background-color: azure
-}
-
 h1 {
     font-family: 'source_sans_proSBdIt';
     color: aliceblue
@@ -53,12 +40,6 @@ p {
     color:cornflowerblue
 }
 
-#header {
-    padding: 20x;
-    border: 1px aliceblue solid;
-    margin: 30px;
-    background-color: lightskyblue
-}
 
 #bodycopy {
     padding: 5px;
@@ -68,7 +49,9 @@ p {
 }
 
 
-
-.lightskyblue{
-    color: lightskyblue
-}
+ width: 300px;
+    background-color: #096;
+    left: 600px;
+    border-top: 20px;
+    position: fixed
+} 

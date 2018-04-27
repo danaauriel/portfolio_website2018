@@ -1,8 +1,7 @@
 
 @font-face {
     font-family: 'cookie-regular';
-    src: url('cookie-regular-webfont.woff2') format('woff2'),
-         url('cookie-regular-webfont.woff') format('woff');
+    src: url('cookie-regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,7 +9,7 @@
 ul {
     list-style-type: none;
     font-family: 'cookie-regular';
-    font-size: 36;
+    font-size: 24pt;
     color:rgb(244, 225, 112)
 }
 
@@ -19,5 +18,11 @@ body{
 }
 
 p {
-    color: rgb(164, 159, 160)
+    color: rgb(164, 159, 160);
+    background-color: rgb(244, 225, 112);
+    width: 300px;
+    height: 200px;
+    left: 200px;
+    position: fixed
 }
+
