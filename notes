@@ -1,34 +1,74 @@
-ul>>>logo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Examples</title>
+    <link rel="stylesheet"
+    href="css/style.css"
+    type="text/css">
+</head>
+<body>
+   <div id= "header"> <!--this is my header div-->
+   <h1>cats are super cool man</h1>
+   </div> <!--this is where my div ends-->
+   
+   <div id= "bodycopy"><!--this is where my body copy starts-->
+    <p> cats are super cute too this paragraph is a different color than the title look how cool</p>
+    <p class= "lightskyblue">this is my second paragraph which is also another color</p>
+    </div> <!-- this is the end of my body copy-->
+</body>
+</html>
 
 
-<div id='photography'>
-        <img src="" alt="">
-    </div>
-    
-    
-    <div id='writing'>
-        
-    </div>
-    
-    
-    <div id='contact'>
-        <p>email: s.dana.ogden@gmail.com</p>
-    </div>
-    
-    
-    
-color : #F4E170
-color : rgb(244, 225, 112)
-font-family : Black Jack
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight
+    : normal;
+    font-style: normal;
 
-  <img src= >
-        <img src= >
-            <img src= >
-                <img src= >
-                    <img src= >
-                    <img src= >
-                <img src= >
-            <img src= >
-         <img src= >
-     <img src= >
-    
+}
+
+
+@font-face {
+    font-family: 'source_sans_proSBdIt';
+    src: url('sourcesanspro-semiboldit-webfont.woff2') format('woff2'),
+         url('sourcesanspro-semiboldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: azure
+}
+
+h1 {
+    font-family: 'source_sans_proSBdIt';
+    color: aliceblue
+}
+p {
+    font-family: 'alex_brushregular';
+    color:cornflowerblue
+}
+
+#header {
+    padding: 20x;
+    border: 1px aliceblue solid;
+    margin: 30px;
+    background-color: lightskyblue
+}
+
+#bodycopy {
+    padding: 5px;
+    border: 2px cornflowerblue solid;
+    margin: 10px;
+    background-color: aliceblue
+}
+
+
+
+.lightskyblue{
+    color: lightskyblue
+}

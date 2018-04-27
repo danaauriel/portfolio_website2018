@@ -1,6 +1,17 @@
 
+@font-face {
+    font-family: 'cookie-regular';
+    src: url('cookie-regular-webfont.woff2') format('woff2'),
+         url('cookie-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 ul {
     list-style-type: none;
+    font-family: 'cookie-regular';
+    font-size: 36;
+    color:rgb(244, 225, 112)
 }
 
 body{
