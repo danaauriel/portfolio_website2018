@@ -1,27 +1,12 @@
 
-@font-face {
-    font-family: 'cookie-regular';
-    src: url('cookie-regular-webfont.woff2') format('woff2'),
-         url('cookie-regular-webfont.woff') format('woff');
-    font-weight
-    : normal;
-    font-style: normal;
-
-}
-
 ul {
     list-style-type: none;
-    background-color:"#F4E170";
+}
+
+body{
+    color:rgb(244, 225, 112)
 }
 
 p {
-    color:"#A49FA0";
-}
-
-
-#bodycopy {
-    padding: 5px;
-    border: 2px solid;
-    margin: 10px;
-    background-color:"#A49FA0"
+    color: rgb(164, 159, 160)
 }
