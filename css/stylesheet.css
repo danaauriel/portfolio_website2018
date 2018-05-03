@@ -5,12 +5,46 @@
     font-weight: normal;
     font-style: normal;
 }
-
-ul{
+#in {
 	list-style-type: none;
-    font-size: 20pt;
+    font-size: 30pt;
     font-family: 'cookie-regular';
     color:rgb(244, 225, 112);
+    top: 50px;
+	padding-top: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ph {
+	list-style-type: none;
+    font-size: 30pt;
+    font-family: 'cookie-regular';
+    color:rgb(244, 225, 112);
+    top: 50px;
+    left: 50px;
+	padding-top: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wr {
+	list-style-type: none;
+    font-size: 30pt;
+    font-family: 'cookie-regular';
+    color:rgb(244, 225, 112);
+    top: 50px;
+	padding-top: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#co {
+	list-style-type: none;
+    font-size: 30pt;
+    font-family: 'cookie-regular';
+    color:rgb(244, 225, 112);
+    top: 50px;
 	padding-top: 20px;
     margin: 0px;
     padding: 0px;
@@ -64,9 +98,48 @@ body{
 
 #image {
     border-color: rgb(164, 159, 160);
-    width: 270;
-    height: 200;
     position: fixed;
-    top:160px;
-    left: 400px
+    top:180px;
+    left:400px
 }
+
+#pyellow {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    left: 40%
+
+}
+
+#pgrey {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    left: 39.6%
+
+}
+
+#cyellow {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    left: 40%
+
+}
+
+#cgrey {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    left: 39.6%
+}
+
+#email {
+    color: rgb(164, 159, 160);
+    font-size: 20pt
+}
+
