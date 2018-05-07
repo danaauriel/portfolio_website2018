@@ -5,62 +5,25 @@
     font-weight: normal;
     font-style: normal;
 }
-#in {
+
+li {
 	list-style-type: none;
-    font-size: 30pt;
-    font-family: 'cookie-regular';
-    color:rgb(244, 225, 112);
-    top: 50px;
-	padding-top: 20px;
-    margin: 0px;
-    padding: 0px;
+    display: inline-block;
+    line-height: 1.33;
 }
 
-#ph {
-	list-style-type: none;
-    font-size: 30pt;
-    font-family: 'cookie-regular';
+a{
     color:rgb(244, 225, 112);
-    top: 50px;
-    left: 50px;
-	padding-top: 20px;
-    margin: 0px;
-    padding: 0px;
-}
-
-#wr {
-	list-style-type: none;
-    font-size: 30pt;
-    font-family: 'cookie-regular';
-    color:rgb(244, 225, 112);
-    top: 50px;
-	padding-top: 20px;
-    margin: 0px;
-    padding: 0px;
-}
-
-#co {
-	list-style-type: none;
-    font-size: 30pt;
-    font-family: 'cookie-regular';
-    color:rgb(244, 225, 112);
-    top: 50px;
-	padding-top: 20px;
-    margin: 0px;
-    padding: 0px;
+    text-decoration: inherit;
 }
 
 nav{
     position: fixed;
-    z-index: 10;
+    left: 350px;
     top: 0px;
-    left: 400px;
     text-align: center;
-    margin-top: 0px;
-    padding: 5opx;
-    font-size: 20pt;
+    font-size: 30pt;
     font-family: 'cookie-regular';
-    color:rgb(244, 225, 112)
 
 }
 hr {
@@ -73,6 +36,11 @@ hr {
     padding: 0;
 }
 
+
+#line{
+    margin: 6em
+}
+
 body{
     color:rgb(244, 225, 112)
 }
@@ -80,8 +48,9 @@ body{
 
 #aboutme {
     color:rgb(164, 159, 160);
-    font-size: 16px;
-    top: 170;
+    font-size: 18px;
+    height:190px;
+    top: 190px;
     position:inherit
 }
 
@@ -89,11 +58,19 @@ body{
 #bodycopy {
     color: rgb(164, 159, 160);
     background-color: rgb(244, 225, 112);
-    width: 300px;
-    height: 200px;
-    top: 170px;
-    left: 50px;
+    width: 400px;
+    height: 210px;
+    top: 200px;
+    left: 70px;
+    vertical-align: middle;
+    text-align: center;
     position: fixed
+}
+
+#me{
+    position: fixed;
+    top: 210px;
+    left: 520px
 }
 
 #image {
@@ -103,11 +80,21 @@ body{
     left:400px
 }
 
+#contactinfo {
+    color:rgb(244, 225, 112);
+    font-size: 18pt;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 320px;
+    text-align: center;
+}
+
 #pyellow {
     font-family: 'cookie-regular';
     font-size: 25pt;
     color:rgb(244, 225, 112);
     position: fixed;
+    top: 90px;
     left: 40%
 
 }
@@ -117,6 +104,7 @@ body{
     font-size: 25pt;
     color:rgb(164, 159, 160);
     position: fixed;
+    top: 90px;
     left: 39.6%
 
 }
@@ -126,7 +114,8 @@ body{
     font-size: 25pt;
     color:rgb(244, 225, 112);
     position: fixed;
-    left: 40%
+    top: 90px;
+    left: 45%
 
 }
 
@@ -135,11 +124,44 @@ body{
     font-size: 25pt;
     color:rgb(164, 159, 160);
     position: fixed;
-    left: 39.6%
+    top: 90px;
+    left: 44.6%
 }
 
-#email {
-    color: rgb(164, 159, 160);
-    font-size: 20pt
+#wyellow {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    top: 90px;
+    left: 45%
+
 }
 
+#wgrey {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    top: 90px;
+    left: 44.6%
+}
+
+#hyellow {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    top: 90px;
+    left: 45%
+
+}
+
+#hgrey {
+    font-family: 'cookie-regular';
+    font-size: 25pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    top: 90px;
+    left: 44.6%
+}
