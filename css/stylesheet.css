@@ -37,6 +37,7 @@ hr {
 }
 
 
+
 #line{
     margin: 6em
 }
@@ -80,13 +81,23 @@ body{
     left:400px
 }
 
+#storylist{
+    color: rgb(164, 159, 160);
+    font-size: 24pt;
+    position: fixed;
+    list-style-type: disc;
+    top:180px;
+    text-align: center
+
+}
+
 #contactinfo {
     color:rgb(244, 225, 112);
     font-size: 18pt;
     position: fixed;
     margin-top: 50px;
-    margin-left: 320px;
-    text-align: center;
+    margin-left: 39%;
+    text-align: center
 }
 
 #pyellow {
@@ -95,8 +106,7 @@ body{
     color:rgb(244, 225, 112);
     position: fixed;
     top: 90px;
-    left: 40%
-
+    text-align: center
 }
 
 #pgrey {
@@ -105,7 +115,7 @@ body{
     color:rgb(164, 159, 160);
     position: fixed;
     top: 90px;
-    left: 39.6%
+    text-align: center
 
 }
 
