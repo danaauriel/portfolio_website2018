@@ -37,12 +37,43 @@
  <h1>Contact</h1>
 </div><!--this is where my div ends-->
 
-<div id=contactinfo>
+<div id="contactinfo">
     <p>email: danaaurielogden@gmail.com</p>
     <p>cell phone: (302)-743-1121</p>
 
 </div>
 
+<div id="contactform">
+           <form method="post" id="contact_form" action="https://formspree.io/danaaurielogden.com">
+
+              <!--Name Field-->
+               <h3 class="contact_form_box_titles">Name:</h3>
+                <input class="contact_form_textarea" id="name_field" placeholder="Your Name" name="name" type="text" required />
+
+               <!--Email Field-->
+                <h3 class="contact_form_box_titles">Email:</h3>
+                <input class="contact_form_textarea" id="email_field" placeholder="Your Email" name="email" type="email" required />
+
+               <!--Subject Field-->
+                <h3 class="contact_form_box_titles">Subject:</h3>
+
+                <input class="contact_form_textarea" id="subject_field" placeholder="Your Subject" name="subject" type="text" required />
+
+               <!--Message Field-->
+                <h3 class="contact_form_box_titles">Message:</h3>
+                <textarea form="contact_form" class="contact_form_textarea" id="message_field" type="text" placeholder="Your Message" name="message" required></textarea>
+
+                <!--Spam Protection-->
+                <input type="text" name="_gotcha" style="display:none" />
+
+                <!--Submission Subject-->
+                <input type="hidden" name="_subject" value="Contact Form Submission" />
+
+               <!--Send Button-->
+                <input id="contact_form_submit_button" type="submit" value="Send">
+            </form>
+
+</div>
 
 </body>
 </html>
