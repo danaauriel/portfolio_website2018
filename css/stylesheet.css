@@ -114,6 +114,20 @@ body{
     right: 20px
 }
 
+#contactform {
+    font-family: 'cookie-regular';
+    font-size: 20pt;
+    color: rgb(164, 159, 160);
+    position: fixed;
+    height: 600px;
+    width: 200px;
+    margin-top: 170px;
+    left: 45%;
+    text-align: middle;
+    background-color:rgb(244, 225, 112)
+
+}
+
 #back {
     font-family: 'cookie-regular';
     font-size: 50pt;
