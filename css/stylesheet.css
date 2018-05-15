@@ -18,13 +18,19 @@ a{
 }
 
 nav{
-    position: fixed;
+    position:fixed;
     left: 350px;
     top: 0px;
     text-align: center;
     font-size: 30pt;
     font-family: 'cookie-regular';
-
+}
+.menubutton:hover {
+    position: relative;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    color:rgb(164, 159, 160)
 }
 hr {
     display: block;
@@ -53,7 +59,7 @@ body{
     font-size: 18px;
     height:190px;
     margin-top: 50px;
-    left: 30px;
+    margin-left: 50px;
     position:inherit
 }
 
@@ -61,10 +67,10 @@ body{
 #bodycopy {
     color: rgb(164, 159, 160);
     background-color: rgb(244, 225, 112);
-    width: 400px;
+    width: 450px;
     height: 210px;
     top: 210px;
-    left: 50px;
+    margin-left: 80px;
     vertical-align: middle;
     text-align: center;
     position: fixed
@@ -73,7 +79,7 @@ body{
 #me{
     position: fixed;
     top: 230px;
-    left: 530px
+    left: 560px
 }
 
 #image {
@@ -111,7 +117,7 @@ body{
     font-size: 50pt;
     color:rgb(164, 159, 160);
     position: fixed;
-    right: 20px
+    right: 20px;
 }
 
 #contactform {
@@ -119,14 +125,41 @@ body{
     font-size: 20pt;
     color: rgb(164, 159, 160);
     position: fixed;
-    height: 600px;
+    height: 550px;
     width: 200px;
-    margin-top: 170px;
-    left: 45%;
-    text-align: middle;
+    margin-top: 180px;
+    left: 44%;
+    text-align: center;
     background-color:rgb(244, 225, 112)
 
 }
+
+#tankas {
+    color: rgb(164, 159, 160);
+    margin-top: 100px;
+    width: 200px;
+    margin-left: 50%;
+    text-align: center
+}
+
+#tankas2 {
+    color: rgb(164, 159, 160);
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 50%;
+    text-align: center
+
+}
+
+#tankas3 {
+    color: rgb(164, 159, 160);
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 50%;
+    text-align: center
+}
+
+
 
 #back {
     font-family: 'cookie-regular';
@@ -134,6 +167,27 @@ body{
     color:rgb(164, 159, 160);
     position: fixed;
     left: 15px
+}
+
+/*github plz*/
+
+#hyellow {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    top: 90px;
+    left: 44.7%;
+
+}
+
+#hgrey {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    top: 90px;
+    left: 45%
 }
 
 #pyellow {
@@ -155,6 +209,26 @@ body{
 
 }
 
+#wyellow {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    top: 90px;
+    left: 44.7%;
+
+}
+
+#wgrey {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    top: 90px;
+    left: 45%
+}
+
+
 #cyellow {
     font-family: 'cookie-regular';
     font-size: 30pt;
@@ -174,39 +248,6 @@ body{
     left: 45%
 }
 
-#wyellow {
-    font-family: 'cookie-regular';
-    font-size: 30pt;
-    color:rgb(244, 225, 112);
-    position: fixed;
-    top: 90px;
-    left: 44.7%
-}
 /*github plz*/
-#wgrey {
-    font-family: 'cookie-regular';
-    font-size: 30pt;
-    color:rgb(164, 159, 160);
-    position: fixed;
-    top: 90px;
-    left: 45%
-}
 
-#hyellow {
-    font-family: 'cookie-regular';
-    font-size: 30pt;
-    color:rgb(244, 225, 112);
-    position: fixed;
-    top: 90px;
-    left: 44.7%
 
-}
-
-#hgrey {
-    font-family: 'cookie-regular';
-    font-size: 30pt;
-    color:rgb(164, 159, 160);
-    position: fixed;
-    top: 90px;
-    left: 45%
-}

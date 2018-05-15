@@ -1,0 +1,31 @@
+#wgrey {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(164, 159, 160);
+    position: fixed;
+    top: 90px;
+    left: 45%
+}
+    
+
+
+#wyellow {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    top: 90px;
+    left: 44.7%
+}
+
+
+#cyellow {
+    font-family: 'cookie-regular';
+    font-size: 30pt;
+    color:rgb(244, 225, 112);
+    position: fixed;
+    top: 90px;
+    left: 44.7%;
+
+}
+
