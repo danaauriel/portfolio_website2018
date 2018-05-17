@@ -18,7 +18,7 @@ a{
 }
 
 nav{
-    position:fixed;
+    position:absolute;
     left: 350px;
     top: 0px;
     text-align: center;
@@ -29,8 +29,9 @@ nav{
     position: relative;
     transition-property: background-color;
     transition-duration: 1s;
-    transition-timing-function: ease-out;
-    color:rgb(164, 159, 160)
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+    color:rgb(164, 159, 160);
 }
 hr {
     display: block;
@@ -46,11 +47,11 @@ hr {
 
 #line{
     margin-top: 400px;
-    margin: 6em
+    margin: 6em;
 }
 
 body{
-    color:rgb(244, 225, 112)
+    color:rgb(244, 225, 112);
 }
 
 
@@ -60,7 +61,7 @@ body{
     height:190px;
     margin-top: 50px;
     margin-left: 50px;
-    position:inherit
+    position:inherit;
 }
 
 
@@ -73,25 +74,25 @@ body{
     margin-left: 80px;
     vertical-align: middle;
     text-align: center;
-    position: fixed
+    position: fixed;
 }
 
-#me{
-    position: fixed;
+#me {
+    position: absolute;
     top: 230px;
-    left: 560px
+    left: 560px;
 }
 
 #image {
     border-color: rgb(164, 159, 160);
-    position: fixed;
+    position: absolute;
     top:180px;
-    left:400px
+    left:400px;
 }
 
 #storylist{
     font-size: 24pt;
-    position: fixed;
+    position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -109,7 +110,7 @@ body{
     position: fixed;
     margin-top: 60px;
     margin-left: 40%;
-    text-align: center
+    text-align: center;
 }
 
 #next {
@@ -130,7 +131,7 @@ body{
     margin-top: 180px;
     left: 44%;
     text-align: center;
-    background-color:rgb(244, 225, 112)
+    background-color:rgb(244, 225, 112);
 
 }
 
@@ -139,7 +140,7 @@ body{
     margin-top: 100px;
     width: 200px;
     margin-left: 50%;
-    text-align: center
+    text-align: center;
 }
 
 #tankas2 {
@@ -147,8 +148,7 @@ body{
     margin-top: 30px;
     width: 200px;
     margin-left: 50%;
-    text-align: center
-
+    text-align: center;
 }
 
 #tankas3 {
@@ -156,7 +156,7 @@ body{
     margin-top: 30px;
     width: 200px;
     margin-left: 50%;
-    text-align: center
+    text-align: center;
 }
 
 
@@ -166,16 +166,44 @@ body{
     font-size: 50pt;
     color:rgb(164, 159, 160);
     position: fixed;
-    left: 15px
+    left: 15px;
 }
 
+
+
+#photo,#photo2,#photo3,#photo4,#photo5,#photo6{
+    width:360px;
+    height:360px;
+
+}
+
+#photo {
+    margin-top: 40px;
+}
+#photos {
+    position:absolute;
+    align-content: center;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: none;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
 /*github plz*/
 
 #hyellow {
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(244, 225, 112);
-    position: fixed;
+    position: absolute;
     top: 90px;
     left: 44.7%;
 
@@ -185,27 +213,27 @@ body{
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(164, 159, 160);
-    position: fixed;
+    position: absolute;
     top: 90px;
-    left: 45%
+    left: 45%;
 }
 
 #pyellow {
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(244, 225, 112);
-    position: fixed;
+    position: absolute;
     top: 90px;
-    left: 39.7%
+    left: 39.7%;
 }
 
 #pgrey {
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(164, 159, 160);
-    position: fixed;
+    position: absolute;
     top: 90px;
-    left: 40%
+    left: 40%;
 
 }
 
@@ -213,7 +241,7 @@ body{
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(244, 225, 112);
-    position: fixed;
+    position: absolute;
     top: 90px;
     left: 44.7%;
 
@@ -223,9 +251,9 @@ body{
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(164, 159, 160);
-    position: fixed;
+    position: absolute;
     top: 90px;
-    left: 45%
+    left: 45%;
 }
 
 
@@ -233,7 +261,7 @@ body{
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(244, 225, 112);
-    position: fixed;
+    position: absolute;
     top: 90px;
     left: 44.7%;
 
@@ -243,9 +271,9 @@ body{
     font-family: 'cookie-regular';
     font-size: 30pt;
     color:rgb(164, 159, 160);
-    position: fixed;
+    position: absolute;
     top: 90px;
-    left: 45%
+    left: 45%;
 }
 
 /*github plz*/
