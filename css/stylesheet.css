@@ -22,7 +22,7 @@ nav{
     left: 350px;
     top: 0px;
     text-align: center;
-    font-size: 30pt;
+    font-size: 34pt;
     font-family: 'cookie-regular';
 }
 .menubutton:hover {
@@ -43,7 +43,14 @@ hr {
     padding: 0;
 }
 
-
+#poems {
+    color:rgb(164, 159, 160);
+    font-size: 14pt;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 46%;
+    text-align: center;
+}
 
 #line{
     margin-top: 400px;
@@ -100,7 +107,8 @@ body{
     width: 100px;
     left: 45%;
     text-align: center;
-    top:200px;
+    top:250px;
+
 
 }
 
@@ -135,11 +143,44 @@ body{
 
 }
 
+
+#haikus {
+    color: rgb(164, 159, 160);
+    margin-top: 100px;
+    width: 200px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+#haiku2 {
+    color: rgb(164, 159, 160);
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+#haiku3 {
+    color: rgb(164, 159, 160);
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+#renga {
+    color: rgb(164, 159, 160);
+    margin-top: 100px;
+    width: 200px;
+    margin-left: 45%;
+    text-align: center;
+}
+
 #tankas {
     color: rgb(164, 159, 160);
     margin-top: 100px;
     width: 200px;
-    margin-left: 50%;
+    margin-left: 45%;
     text-align: center;
 }
 
@@ -147,7 +188,7 @@ body{
     color: rgb(164, 159, 160);
     margin-top: 30px;
     width: 200px;
-    margin-left: 50%;
+    margin-left: 45%;
     text-align: center;
 }
 
@@ -155,7 +196,7 @@ body{
     color: rgb(164, 159, 160);
     margin-top: 30px;
     width: 200px;
-    margin-left: 50%;
+    margin-left: 45%;
     text-align: center;
 }
 
