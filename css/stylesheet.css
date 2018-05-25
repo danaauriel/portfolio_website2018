@@ -25,6 +25,16 @@ nav{
     font-size: 34pt;
     font-family: 'cookie-regular';
 }
+
+#resume {
+    color:rgb(164, 159, 160);
+    font-size: 20px;
+    font-size: 20px;
+    margin-top: -200px;
+    margin-left: 1750px;
+    position:inherit;
+}
+
 .menubutton:hover {
     position: relative;
     transition-property: background-color;
@@ -64,7 +74,7 @@ body{
 
 #aboutme {
     color:rgb(164, 159, 160);
-    font-size: 18px;
+    font-size: 20px,
     height:190px;
     margin-top: 50px;
     margin-left: 50px;
@@ -84,9 +94,21 @@ body{
     position: fixed;
 }
 
+#skills {
+    color: rgb(164, 159, 160);
+    background-color: rgb(244, 225, 112);
+    width: 450px;
+    height: 250px;
+    top: 190px;
+    margin-left: 1280px;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+}
+
 #me {
     position: absolute;
-    top: 230px;
+    top: 180px;
     left: 560px;
 }
 
@@ -263,8 +285,22 @@ body{
 .zoom:hover {
     transform: scale(1.2);
 }
-/*github plz*/
 
+.zoom2 {
+    padding: 50px;
+    background-color: none;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 330px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.zoom2:hover {
+    transform: scale(1.1);
+}
+
+/*github plz*/
 #hyellow {
     font-family: 'cookie-regular';
     font-size: 30pt;
@@ -342,6 +378,5 @@ body{
     left: 45%;
 }
 
+
 /*github plz*/
-
-
