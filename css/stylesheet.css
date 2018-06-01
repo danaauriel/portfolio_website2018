@@ -272,6 +272,13 @@ body{
     margin-left: 35%;
 }
 
+#photo {
+    width:500px;
+    height:380px;
+    margin-top: -30px;
+    margin-left: -20px;
+}
+
 .zoom {
     padding: 50px;
     background-color: none;
